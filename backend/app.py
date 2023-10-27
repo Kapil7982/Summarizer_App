@@ -23,7 +23,7 @@ CORS(app)
 summarizer = pipeline("summarization")
 
 # Configure your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "paste your key here"
 
 
 @app.route("/generate_text", methods=["POST"])
